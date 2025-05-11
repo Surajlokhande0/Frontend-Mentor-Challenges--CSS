@@ -1,20 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-   
-    font-family: "roboto";
+body {
+  font-family: "roboto";
 }
-#page1{
-    /* background-color: lightblue; */
-    height: 110vh;
-    width: 100%;
-    position: relative;
+#page1 {
+  /* background-color: lightblue; */
+  height: 110vh;
+  width: 100%;
+  position: relative;
 }
 
 /* #page1>img{
@@ -24,674 +22,657 @@ body{
     position: absolute;
     z-index: -9999;  
 } */
-#page1>video{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    z-index: -9999;  
+#page1 > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -9999;
 }
-#callicon{
-    height: 50px;
-    width: 50px;
-    display: grid;
-    place-content: center;
-    border-radius: 50%;
-    position: fixed;
-    left: 190vh;
-    bottom: 30vh;
-    background-color: rgb(255, 255, 255);
-    cursor: pointer;
-    box-shadow: 0 0.1rem 0.3rem black;
+#callicon {
+  height: 50px;
+  width: 50px;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  position: fixed;
+  left: 190vh;
+  bottom: 30vh;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  box-shadow: 0 0.1rem 0.3rem black;
 }
-#callicon>i{
-    font-size: 1.2rem;
+#callicon > i {
+  font-size: 1.2rem;
 }
-#callicon:hover{
-    color: #1C69D4;
-
+#callicon:hover {
+  color: #1c69d4;
 }
-#NavigationBar{
-    display: flex;
-    justify-content: center;
+#NavigationBar {
+  display: flex;
+  justify-content: center;
 }
-nav{
-    height: 12vh;
-    width: 90%;
-    display: flex;
-    border-bottom: 1.5px solid white;
-    justify-content: space-between;
-    /* background-color: lightcoral; */
+nav {
+  height: 12vh;
+  width: 90%;
+  display: flex;
+  border-bottom: 1.5px solid white;
+  justify-content: space-between;
+  /* background-color: lightcoral; */
 }
-#LeftNav{
-    height: 100%;
-    width: 45%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+#LeftNav {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-#Navlink{
-    height: 100%;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* background-color: lightblue; */
-    
+#Navlink {
+  height: 100%;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* background-color: lightblue; */
 }
-#Navlink>a:hover{
-    border-bottom: 4px solid blue;
-    cursor: pointer;
+#Navlink > a:hover {
+  border-bottom: 4px solid blue;
+  cursor: pointer;
 }
-#Navlink>a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    border-bottom: 4px solid transparent;
-    /* background-color: lightcoral; */
-    text-decoration: none;
-    color: white;
-    font-family: "Roboto";
-    font-weight: 500;
+#Navlink > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-bottom: 4px solid transparent;
+  /* background-color: lightcoral; */
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 500;
 }
-#RightNav{
-    height: 100%;
-    width: 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    /* background-color: rgb(11, 11, 10); */
+#RightNav {
+  height: 100%;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: rgb(11, 11, 10); */
 }
-#RightNav>#icons{
-    height: 100%;
-    flex-basis: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    border-bottom: 4px solid transparent;
-    /* background-color: lightblue; */
+#RightNav > #icons {
+  height: 100%;
+  flex-basis: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-bottom: 4px solid transparent;
+  /* background-color: lightblue; */
 }
-#RightNav>#icons:hover{
-    cursor: pointer;
-    border-bottom: 4px solid blue;
+#RightNav > #icons:hover {
+  cursor: pointer;
+  border-bottom: 4px solid blue;
 }
 
-#BigText{
-    /* padding-top: 20vh; */
-    position: relative;
-    left: 12vh;
-    top: 28vh;
-    height: 70vh;
-    width: 30vw;
-    line-height: 6rem;
-    /* background-color: lightblue; */
+#BigText {
+  /* padding-top: 20vh; */
+  position: relative;
+  left: 12vh;
+  top: 28vh;
+  height: 70vh;
+  width: 30vw;
+  line-height: 6rem;
+  /* background-color: lightblue; */
 }
-#BigText>h3{
-    font-family: "poppins";
-    font-weight: 350;
-    font-size: 1.4rem;
-    color: white;
-    letter-spacing: 2px;
+#BigText > h3 {
+  font-family: "poppins";
+  font-weight: 350;
+  font-size: 1.4rem;
+  color: white;
+  letter-spacing: 2px;
 }
-#BigText>h4{
-    font-size: 13em;
-    font-weight: 300;   
-    color: white;
+#BigText > h4 {
+  font-size: 13em;
+  font-weight: 300;
+  color: white;
 }
-#discoverBtn{
-    position: relative;
-    left: 13vh;
-    bottom: 3vh;
-    border-radius: 5px;
-    padding: 1rem 3rem;
-    background-color: #1C69D4;
-    border: none;
-    cursor: pointer;
+#discoverBtn {
+  position: relative;
+  left: 13vh;
+  bottom: 3vh;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  background-color: #1c69d4;
+  border: none;
+  cursor: pointer;
 }
-#discoverBtn:hover{
-    background-color: #1250a8;
-
+#discoverBtn:hover {
+  background-color: #1250a8;
 }
-#discoverBtn>a{
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-    font-family: "roboto";
-    font-weight: 500;
+#discoverBtn > a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-family: "roboto";
+  font-weight: 500;
 }
 
 /* page 2 start here  ------------------------------------------------------------------------------------------------------*/
 
-#page2{
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: rgb(179, 52, 52); */
+#page2 {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(179, 52, 52); */
 }
-#page2>#container{
-    height: 100%;
-    width: 80vw;
-    /* background-color: lightcoral; */
+#page2 > #container {
+  height: 100%;
+  width: 80vw;
+  /* background-color: lightcoral; */
 }
-.boxh3{
-    display: flex;
-    margin-left: 5rem;
-    justify-content: center;
-    width: 70vw;
-    height: 15vh;
-    /* background-color: lightblue; */
+.boxh3 {
+  display: flex;
+  margin-left: 5rem;
+  justify-content: center;
+  width: 70vw;
+  height: 15vh;
+  /* background-color: lightblue; */
 }
-#page2>#container>.boxh3>h3{
-    font-family: 'Poppins', 'Roboto', sans-serif;
-    font-weight: 300;
-    letter-spacing: 0.5px;
-    font-size: 2.3rem;
-    text-align: center;
-    padding-top: 2rem;
-    
+#page2 > #container > .boxh3 > h3 {
+  font-family: "Poppins", "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-size: 2.3rem;
+  text-align: center;
+  padding-top: 2rem;
 }
-#page2>#container>#BMWbox{
-    display: flex;
-    
+#page2 > #container > #BMWbox {
+  display: flex;
+  /* background-color: lightblue; */
+  align-items: center;
 }
-#page2>#container>#BMWbox>.box{
-    height: 35vh;
-    width: 100vh;
-    margin-left: 1rem;
-    text-align: center;
-    padding-top: 2rem;
-    line-height: 3.5rem;
-    /* background-color: rgb(182, 230, 173); */
+#page2 > #container > #BMWbox > .box {
+  height: 35vh;
+  width: 100vh;
+  margin-left: 1rem;
+  text-align: center;
+  padding-top: 2rem;
+  line-height: 2rem;
+  /* background-color: rgb(182, 230, 173); */
 }
-#page2>#container>#BMWbox>.box>i{
-    font-size: 2.9rem;
+#page2 > #container > #BMWbox > .box > i {
+  font-size: 2.9rem;
 }
-#page2>#container>#BMWbox>.box>h5{
-    font-size: 1.5rem;
-    font-weight: 300;
+#page2 > #container > #BMWbox > .box > h5 {
+  font-size: 1.5rem;
+  font-weight: 300;
 }
-#page2>#container>#BMWbox>.box>a>button{
-    width: auto;
-    padding: 1rem  1rem;
-    font-weight: 500;
-    font-size: 1rem;
-    font-family: 'Poppins', 'Roboto', sans-serif;
-    border: 1px solid black;
-    background-color: white;
-    letter-spacing: 0.5px;
-    margin-top: 0.5rem;
-    cursor: pointer;
-    outline: none;
+#page2 > #container > #BMWbox > .box > a > button {
+  width: auto;
+  padding: 1rem 1rem;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "Poppins", "Roboto", sans-serif;
+  border: 1px solid black;
+  background-color: white;
+  letter-spacing: 0.5px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  outline: none;
 }
 
-#page2>#container>#BMWbox>.box>a>button:hover{
-    border: 2px solid black;
-    outline: none;
+#page2 > #container > #BMWbox > .box > a > button:hover {
+  border: 2px solid black;
+  outline: none;
 }
 
 /* page 3 section start here---------------------------------------------------------------------------------------- */
 
-
-#page3{
-    width: 100%;
-    height: 70vh;
-    /* background-color: rgb(235, 235, 87); */
-    position: relative;
+#page3 {
+  width: 100%;
+  height: 70vh;
+  /* background-color: rgb(235, 235, 87); */
+  position: relative;
 }
-#page3>img{
-    width: 100%;
-    height: 70vh;
-    object-fit: cover;
-    position: absolute;
-    z-index: -9999;
+#page3 > img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  position: absolute;
+  z-index: -9999;
 }
-#x5BigText{
-    padding-top: 15vh;
-    position: relative;
-    left: 12vh;
-    /* top: 28vh; */
-    height: 10vh;
-    width: 30vw;
-    line-height: 6rem;
-    /* background-color: lightblue; */
+#x5BigText {
+  padding-top: 15vh;
+  position: relative;
+  left: 12vh;
+  /* top: 28vh; */
+  height: 10vh;
+  width: 30vw;
+  line-height: 6rem;
+  /* background-color: lightblue; */
 }
-#x5BigText>#BigText1>h3{
-    font-family: "poppins";
-    font-weight: 350;
-    font-size: 1.4rem;
-    color: white;
-    letter-spacing: 2px;
+#x5BigText > #BigText1 > h3 {
+  font-family: "poppins";
+  font-weight: 350;
+  font-size: 1.4rem;
+  color: white;
+  letter-spacing: 2px;
 }
-#x5BigText>#BigText1>h4{
-    font-size: 13em;
-    font-weight: 300;   
-    color: white;
+#x5BigText > #BigText1 > h4 {
+  font-size: 13em;
+  font-weight: 300;
+  color: white;
 }
-#discoverBtn1{
-    position: relative;
-    bottom: 5vh;
-    border-radius: 5px;
-    padding: 1rem 6rem;
-    background-color: transparent;
-    border: 1.5px solid rgb(255, 255, 255);
-    cursor: pointer;
+#discoverBtn1 {
+  position: relative;
+  bottom: 5vh;
+  border-radius: 5px;
+  padding: 1rem 6rem;
+  background-color: transparent;
+  border: 1.5px solid rgb(255, 255, 255);
+  cursor: pointer;
 }
-#discoverBtn1:hover{
-    border: 2px solid rgb(255, 255, 255);
-
+#discoverBtn1:hover {
+  border: 2px solid rgb(255, 255, 255);
 }
-#discoverBtn1>a{
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-    font-family: "roboto";
-    font-weight: 500;
+#discoverBtn1 > a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-family: "roboto";
+  font-weight: 500;
 }
-
 
 /* page 4 section start here ---------------------------------------------------------------------------------------------- */
 
-
-#page4{
-    width: 100%;
-    height: 70vh;
-    margin-top: 6vh;
-    position: relative;
-    /* background-color: lightcyan; */
+#page4 {
+  width: 100%;
+  height: 70vh;
+  margin-top: 6vh;
+  position: relative;
+  /* background-color: lightcyan; */
 }
-#page4>img{
-    width: 100%;
-    height: 70vh;
-    object-fit: cover;
-    position: absolute;
-    z-index: -9999;
+#page4 > img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  position: absolute;
+  z-index: -9999;
 }
-#BigText3{
-    /* padding-top: 15vh; */
-    position: relative;
-    left: 12vh;
-    top: 25vh;
-    height: 10vh;
-    width: 30vw;
-    line-height: 4rem;
-    /* background-color: lightblue; */
+#BigText3 {
+  /* padding-top: 15vh; */
+  position: relative;
+  left: 12vh;
+  top: 25vh;
+  height: 10vh;
+  width: 30vw;
+  line-height: 4rem;
+  /* background-color: lightblue; */
 }
-#BigText3>#BigText2>h3{
-    font-family: "poppins";
-    font-weight: 350;
-    font-size: 1.4rem;
-    color: white;
-    letter-spacing: 2px;
+#BigText3 > #BigText2 > h3 {
+  font-family: "poppins";
+  font-weight: 350;
+  font-size: 1.4rem;
+  color: white;
+  letter-spacing: 2px;
 }
-#discoverBtn2{
-    position: relative;
-    border-radius: 5px;
-    padding: 1rem 6rem;
-    background-color: transparent;
-    border: 1.5px solid rgb(255, 255, 255);
-    cursor: pointer;
+#discoverBtn2 {
+  position: relative;
+  border-radius: 5px;
+  padding: 1rem 6rem;
+  background-color: transparent;
+  border: 1.5px solid rgb(255, 255, 255);
+  cursor: pointer;
 }
-#discoverBtn2:hover{
-    border: 2px solid rgb(255, 255, 255);
+#discoverBtn2:hover {
+  border: 2px solid rgb(255, 255, 255);
 }
-#discoverBtn2>a{
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-    font-family: "roboto";
-    font-weight: 500;
+#discoverBtn2 > a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-family: "roboto";
+  font-weight: 500;
 }
 
 /* page 5 section start heree ------------------------------------------------------------------------------------------ */
 
-#page5{
-    width: 100%;
-    height: 70vh;
-    margin-top: 6vh;
-    position: relative;
-    /* background-color: lightblue; */
+#page5 {
+  width: 100%;
+  height: 70vh;
+  margin-top: 6vh;
+  position: relative;
+  /* background-color: lightblue; */
 }
-#page5>img{
-    width: 100%;
-    height: 70vh;
-    object-fit: cover;
-    position: absolute;
-    z-index: -9999;
-    object-position: bottom;
+#page5 > img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  position: absolute;
+  z-index: -9999;
+  object-position: bottom;
 }
-#page5>#BigText4{
-    width: 50vw;
-    height: 40vh;
-    position: relative;
-    left: 12vh;
-    top: 25vh;
-    line-height: 4rem;
-    /* background-color: lightblue; */
+#page5 > #BigText4 {
+  width: 50vw;
+  height: 40vh;
+  position: relative;
+  left: 12vh;
+  top: 25vh;
+  line-height: 4rem;
+  /* background-color: lightblue; */
 }
-#BigText4>#BigText3>h3{
-    font-family: "poppins";
-    font-weight: 350;
-    font-size: 2.2rem;
-    color: white;
-    position: relative;
-    bottom: 7vh;
-    right: 12vh;
+#BigText4 > #BigText3 > h3 {
+  font-family: "poppins";
+  font-weight: 350;
+  font-size: 2.2rem;
+  color: white;
+  position: relative;
+  bottom: 7vh;
+  right: 12vh;
 }
-#discover3{
-    position: relative;
-    top: 19vh;
+#discover3 {
+  position: relative;
+  top: 19vh;
 }
-#discoverBtn3{
-    border-radius: 5px;
-    padding: 1rem 6rem;
-    background-color: transparent;
-    border: 1.5px solid rgb(255, 255, 255);
-    cursor: pointer;
+#discoverBtn3 {
+  border-radius: 5px;
+  padding: 1rem 6rem;
+  background-color: transparent;
+  border: 1.5px solid rgb(255, 255, 255);
+  cursor: pointer;
 }
-#discoverBtn3:hover{
-    border: 2px solid rgb(255, 255, 255);
+#discoverBtn3:hover {
+  border: 2px solid rgb(255, 255, 255);
 }
-#discoverBtn3>a{
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-    font-family: "roboto";
-    font-weight: 500;
+#discoverBtn3 > a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-family: "roboto";
+  font-weight: 500;
 }
 
 /* page 6 start  here --------------------------------------------------------------------------------------------------- */
 
-#page6{
-    width: 100%;
-    height: 70vh;
-    /* background-color: lightcoral; */
-    margin-top: 6vh;
-    position: relative;
+#page6 {
+  width: 100%;
+  height: 70vh;
+  /* background-color: lightcoral; */
+  margin-top: 6vh;
+  position: relative;
 }
-#page6>img{
-    width: 100%;
-    height: 70vh;
-    object-fit: cover;
-    position: absolute;
-    z-index: -9999;
-    object-position: top;
+#page6 > img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  position: absolute;
+  z-index: -9999;
+  object-position: top;
 }
-#page6>#BigText5{
-    width: 50vw;
-    height: 40vh;
-    position: relative;
-    left: 26vh;
-    top: 40vh;
-    line-height: 5rem;
-    /* background-color: lightblue; */
+#page6 > #BigText5 {
+  width: 50vw;
+  height: 40vh;
+  position: relative;
+  left: 26vh;
+  top: 40vh;
+  line-height: 5rem;
+  /* background-color: lightblue; */
 }
-#BigText5>#BigText4>h3{
-    font-family: "poppins";
-    font-weight: 350;
-    font-size: 2.2rem;
-    color: white;
-    position: relative;
-    bottom: 7vh;
-    right: 12vh;
+#BigText5 > #BigText4 > h3 {
+  font-family: "poppins";
+  font-weight: 350;
+  font-size: 2.2rem;
+  color: white;
+  position: relative;
+  bottom: 7vh;
+  right: 12vh;
 }
-#BigText5>#BigText4>#para>p{
-    font-family: "poppins";
-    font-weight: 350;
-    font-size: 1.2rem;
-    color: white;
-    position: relative;
-    bottom: 7vh;
-    right: 12vh;
-    line-height: 2rem;
+#BigText5 > #BigText4 > #para > p {
+  font-family: "poppins";
+  font-weight: 350;
+  font-size: 1.2rem;
+  color: white;
+  position: relative;
+  bottom: 7vh;
+  right: 12vh;
+  line-height: 2rem;
 }
-#discover4{
-    position: relative;
-    bottom: 6vh;
-    right: 12vh;
+#discover4 {
+  position: relative;
+  bottom: 6vh;
+  right: 12vh;
 }
-#discoverBtn4{
-    border-radius: 5px;
-    padding: 1rem 6rem;
-    background-color: transparent;
-    border: 1.5px solid rgb(255, 255, 255);
-    cursor: pointer;
+#discoverBtn4 {
+  border-radius: 5px;
+  padding: 1rem 6rem;
+  background-color: transparent;
+  border: 1.5px solid rgb(255, 255, 255);
+  cursor: pointer;
 }
-#discoverBtn4:hover{
-    border: 2px solid rgb(255, 255, 255);
+#discoverBtn4:hover {
+  border: 2px solid rgb(255, 255, 255);
 }
-#discoverBtn4>a{
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-    font-family: "roboto";
-    font-weight: 500;
+#discoverBtn4 > a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-family: "roboto";
+  font-weight: 500;
 }
 
 /* page 7 start here --------------------------------------------------------------------------------------------------- */
 
-#page7{
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    /* background-color: rgb(237, 212, 212); */
+#page7 {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  /* background-color: rgb(237, 212, 212); */
 }
-#page7>#left{
-    width: 60%;
-    height: 100%;
-    position: relative;
-    /* background-color: lightblue; */
+#page7 > #left {
+  width: 60%;
+  height: 100%;
+  position: relative;
+  /* background-color: lightblue; */
 }
-#page7>#left>img{
-    position: relative;
-    top: 6vh;
-    left: 13vh;
-    width: 80%;
+#page7 > #left > img {
+  position: relative;
+  top: 6vh;
+  left: 13vh;
+  width: 80%;
 }
-#page7>#right{
-    width: 40%;
-    height: 100%;
-    /* background-color: rgb(230, 173, 173); */
+#page7 > #right {
+  width: 40%;
+  height: 100%;
+  /* background-color: rgb(230, 173, 173); */
 }
-#page7>#right>#BigText6{
-    width: 30vw;
-    height: 40vh;
-    position: relative;
-    left: 11vh;
-    top: 25vh;
-    line-height: 3rem;
-    /* background-color: lightblue; */
+#page7 > #right > #BigText6 {
+  width: 30vw;
+  height: 40vh;
+  position: relative;
+  left: 11vh;
+  top: 25vh;
+  line-height: 3rem;
+  /* background-color: lightblue; */
 }
-#right>#BigText6>#BigText5>h3{
-    font-family: "poppins";
-    font-weight: 350;
-    font-size: 2rem;
-    color: rgb(0, 0, 0);
-    position: relative;
-    bottom: 7vh;
-    right: 12vh;
+#right > #BigText6 > #BigText5 > h3 {
+  font-family: "poppins";
+  font-weight: 350;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  position: relative;
+  bottom: 7vh;
+  right: 12vh;
 }
-#right>#BigText6>#BigText5>#para>p{
-    font-family: "poppins";
-    font-weight: 350;
-    font-size: 1.1rem;
-    color: rgb(0, 0, 0);
-    position: relative;
-    bottom: 7vh;
-    right: 12vh;
-    line-height: 2rem;
+#right > #BigText6 > #BigText5 > #para > p {
+  font-family: "poppins";
+  font-weight: 350;
+  font-size: 1.1rem;
+  color: rgb(0, 0, 0);
+  position: relative;
+  bottom: 7vh;
+  right: 12vh;
+  line-height: 2rem;
 }
-#discover5{
-    position: relative;
-    bottom: 6vh;
-    right: 12vh;
-}
-
-#discoverBtn5:hover{
-    border: 2px solid rgb(255, 255, 255);
-}
-#discover5>a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 1rem;
-    font-family: "roboto";
-    font-weight: 400;
-        /* letter-spacing: 0.1rem; */
-}
-#discover5>a:hover{
-    color: #1C69D4;
-}
-#discover5>a>span>i{
-    gap: 10px;
-    font-weight: 100;
-
+#discover5 {
+  position: relative;
+  bottom: 6vh;
+  right: 12vh;
 }
 
+#discoverBtn5:hover {
+  border: 2px solid rgb(255, 255, 255);
+}
+#discover5 > a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  font-family: "roboto";
+  font-weight: 400;
+  /* letter-spacing: 0.1rem; */
+}
+#discover5 > a:hover {
+  color: #1c69d4;
+}
+#discover5 > a > span > i {
+  gap: 10px;
+  font-weight: 100;
+}
 
 /* section8 start hereeee  ----------------------------------------------------------------------------------------------*/
 
-#section8{
-    width: 100%;
-    height: 12vh;
-    position: relative;
-    display: flex;
-    align-items: center;
-    border-top: 1px solid black;
-    /* background-color: lightblue; */
+#section8 {
+  width: 100%;
+  height: 12vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid black;
+  /* background-color: lightblue; */
 }
-#section8>h4{
-    position: relative;
-    left: 14vh;
-    font-weight: 300;
-    font-size: 0.9rem;
+#section8 > h4 {
+  position: relative;
+  left: 14vh;
+  font-weight: 300;
+  font-size: 0.9rem;
 }
-#section8 a{
-    position: relative;
-    left: 18vh;
-    text-decoration: none;
-    color: black;
+#section8 a {
+  position: relative;
+  left: 18vh;
+  text-decoration: none;
+  color: black;
 }
-#section8 a:hover{
-    color: #006aff;
-}
-
-
-
-footer{
-    height: 55vh;
-    width: 100%;
-    background-color: #F6F6F6;
-}
-footer>#footerContainer{
-    height: 70%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    /* background-color: lightcoral; */
-
-}
-footer>#footerContainer>#container{
-    height: 70%;
-    width: 90%;
-    display: flex;
-    justify-content: space-around;
-    /* background-color: rgb(240, 240, 128); */
-}
-footer>#footerContainer>#container>.boxLinks{
-    /* background-color: lightcyan; */
-    height: 100%;
-    flex-basis: 24%;
-    display: block;
-}
-footer>#footerContainer>#container>.boxLinks>#contact{
-    top: 10vh;
-    left: 2vh;
-    position: relative;
-    line-height: 5vh;
-
+#section8 a:hover {
+  color: #006aff;
 }
 
-footer>#footerContainer>#container>.boxLinks>#contact>a{
-    text-decoration: none;
-    color: black;
-    font-family: "roboto";
+footer {
+  height: 55vh;
+  width: 100%;
+  background-color: #f6f6f6;
 }
-footer>#footerContainer>#container>.boxLinks>#contact>a:hover{
-    color: #006aff;
+footer > #footerContainer {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* background-color: lightcoral; */
 }
-footer>#footerContainer>#container>.boxLinks>#contact>p{
-    color: black;
-    font-size: 0.9rem;
-    font-weight: 300;
-    font-family: "roboto";
+footer > #footerContainer > #container {
+  height: 70%;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  /* background-color: rgb(240, 240, 128); */
 }
-
-#socialMediaIcon{
-    height: 30%;
-    width: 100%;
-    position: relative;
-    /* background-color: rgb(46, 153, 188); */
+footer > #footerContainer > #container > .boxLinks {
+  /* background-color: lightcyan; */
+  height: 100%;
+  flex-basis: 24%;
+  display: block;
 }
-#socialMediaIcon>#socialLinks{
-    width: 15%;
-    /* background-color: lightblue; */
-    position: relative;
-    top: 5vh;
-    left: 13vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-#socialMediaIcon>#socialLinks i {
-    font-size: 1.2rem;
-    cursor: pointer;
+footer > #footerContainer > #container > .boxLinks > #contact {
+  top: 10vh;
+  left: 2vh;
+  position: relative;
+  line-height: 5vh;
 }
 
-
-
-
-#section10{
-    width: 100%;
-    height: 13vh;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(255, 255, 255);
-}   
-
-#section10>.BMWfooter{
-    height: 100%;
-    width: 40%;
-    position: relative;
-    /* background-color: lightcoral; */
+footer > #footerContainer > #container > .boxLinks > #contact > a {
+  text-decoration: none;
+  color: black;
+  font-family: "roboto";
 }
-#section10>.BMWfooter>h4{
-    padding: 2rem 0 0 6rem;
-    font-size: 1.2rem;
-    font-family: "poppins";
-    font-weight: 300;
-    
+footer > #footerContainer > #container > .boxLinks > #contact > a:hover {
+  color: #006aff;
 }
-#section10>.BMWfooter1{
-    height: 100%;
-    width: 25%;
-    position: relative;
-    right: 11vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    /* background-color: rgb(154, 240, 128); */
+footer > #footerContainer > #container > .boxLinks > #contact > p {
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 300;
+  font-family: "roboto";
 }
-#section10>.BMWfooter1>a{
-    text-decoration: none;
-    font-size: 0.8rem;
-    font-weight: 500;
-    color: black;
+
+#socialMediaIcon {
+  height: 30%;
+  width: 100%;
+  position: relative;
+  /* background-color: rgb(46, 153, 188); */
 }
-#section10>.BMWfooter1>a:hover{
-    color: #006aff;
+#socialMediaIcon > #socialLinks {
+  width: 15%;
+  /* background-color: lightblue; */
+  position: relative;
+  top: 5vh;
+  left: 13vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#socialMediaIcon > #socialLinks i {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#section10 {
+  width: 100%;
+  height: 13vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+
+#section10 > .BMWfooter {
+  height: 100%;
+  width: 40%;
+  position: relative;
+  /* background-color: lightcoral; */
+}
+#section10 > .BMWfooter > h4 {
+  padding: 2rem 0 0 6rem;
+  font-size: 1.2rem;
+  font-family: "poppins";
+  font-weight: 300;
+}
+#section10 > .BMWfooter1 {
+  height: 100%;
+  width: 25%;
+  position: relative;
+  right: 11vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: rgb(154, 240, 128); */
+}
+#section10 > .BMWfooter1 > a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: black;
+}
+#section10 > .BMWfooter1 > a:hover {
+  color: #006aff;
 }

@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #c3d9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: poppins;
+}
+
+#card {
+  width: 60%;
+  height: 80vh;
+  display: flex;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+#left {
+  width: 33%;
+  height: 100%;
+  padding: 2rem;
+  border-radius: 10px;
+
+  background-color: #483eff;
+}
+.boxes {
+  width: 90%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  /* background-color: rgb(187, 224, 39); */
+}
+.boxes > #circle {
+  width: 40px;
+  height: 40px;
+  padding: 0.5rem 0 0 1rem;
+  border-radius: 50%;
+  
+  background-color: lightblue;
+}
+.boxes > .heading > h2 {
+  padding-left: 1rem;
+  font-size: 1rem;
+  display: block;
+}
+#right {
+  width: 67%;
+  height: 100%;
+  display: block;
+  padding: 2rem 5rem 0 5rem;
+  /* background-color: rgb(193, 240, 128); */
+}
+#personalinfo {
+  color: black;
+  /* display: block; */
+}
+#form {
+  padding-top: 1.5rem;
+  color: black;
+  line-height: 2.5rem;
+}
+
+input {
+  width: 100%;
+  height: 5vh;
+  padding: 1rem;
+}
+
+button {
+  width: 7vw;
+  height: 4vh;
+  position: relative;
+  top: 20%;
+  left: 70%;
+  background-color: #03295B;
+  color: white;
+  border: none;
+}

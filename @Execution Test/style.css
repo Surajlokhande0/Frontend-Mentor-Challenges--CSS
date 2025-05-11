@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#page1{
+    width: 100vw;
+    height: 95vh;
+    /* background-color: lightblue; */
+}
+nav{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    padding: 0 3rem 0 5rem;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* background-color: lightcoral; */
+}
+
+#page1>nav>#logo>img{
+    width: 8vw;
+    height: 4vh;
+    flex-basis: 40%;
+}
+#page1>nav #anchorTagLeft{
+    flex-basis: 40%;
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(240, 231, 128); */
+    justify-content: space-around;
+}
+#page1>nav #anchorTagLeft>a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+}
+#page1>nav #anchorTagLeft>a:hover{
+    text-decoration: underline;
+}
+#page1>nav #anchorTagRight{
+    flex-basis: 30%;
+    margin-left: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: lightgreen; */
+}
+#page1>nav #anchorTagRight>a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 0.8rem;
+}
+#page1>nav #anchorTagRight>a:hover{
+    text-decoration: underline;
+}
+#page1 #container{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-image: url(./images/a.avif);
+    object-fit: cover;
+    background-size: cover;
+    background-position: left;
+}
+#box{
+    width: 30vw;
+    height: 35vh;
+    position: relative;
+    top: 3rem;
+    left: 4rem;
+    padding: 2rem;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+#box>h2{
+    font-size: 2.3rem;
+    font-weight: 400;
+
+}
+#box>p{
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+#box>#learn{
+    width: 7vw;
+    height: 5vh;
+    font-size: 1rem;
+    margin-top: 1.7rem;
+    background-color: #005CA5;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+#page1 #forword{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page1 #forword>#icons{
+    display: flex;
+    gap: 2em;
+    cursor: pointer;
+    color: black;
+}
+#page1 #mainLogo{
+    width: 100%;
+    height: 20vh;
+    /* background-color: lightblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#page1 #mainLogo>#mainlogos1{
+    width: 60vw;
+    height: 17vh;
+    display: flex;
+    /* background-color: lightcoral; */
+}
+#page1 #mainLogo>#mainlogos1>.msLogos{
+    margin-left: 1rem;
+    flex-basis: 40%;
+    /* background-color: lightcyan; */
+}
+#page1 #mainLogo>#mainlogos1>.msLogos>img{
+    width: 50px;
+    margin-left: 4.5rem;
+    color: black;
+}
+#page1 #mainLogo>#mainlogos1>.msLogos>a{
+    color: #0067B8;
+}
+#page1 #mainLogo>#mainlogos1>.msLogos>a:hover{
+    text-decoration: underline;
+}
+/* page 2 -------------------------------------------- */
+
+
+#page2{
+    width: 100vw;
+    height: 80vh;
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: lightblue; */
+}
+#page2>.card{
+    width: 30vw;
+    height: 65vh;
+    margin: 1rem;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 1.5px 0.3px black;
+    color: black;
+    /* background-color: l/ightcoral; */
+}
+
+#page2>.card>h4{
+    padding: 0 1rem 0 1rem;
+    font-size: 1.7rem;
+}
+#page2>.card>p{
+    padding: 0 1rem 0 1rem;
+    font-size: 1rem;
+    margin-top: 1.2rem;
+}
+#page2>.card>#cardBtn{
+    width: 12vw;
+    height: 5vh;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #00437a;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: poppins;
+  color: white;
+}
+#card {
+  width: 70vw;
+  height: 70vh;
+  margin-top: 5rem;
+  display: flex;
+  border-radius: 20px;
+  margin-left: 2rem;
+  /* background-color: lightblue; */
+}
+#card > .box {
+  width: 40vw;
+  height: 100%;
+  border-radius: 10px;
+  padding: 2rem 4rem 0 3rem;
+  background-color: lightcoral;
+}
+
+/* box 1--------------------------------------------------------------------------------------------- */
+#card > .box1 {
+  background-color: #e28525;
+}
+
+#card > .box1 > #circle {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(25, 25, 25, 0.616);
+  border-radius: 50%;
+  position: relative;
+}
+#card > .box1 i {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 2rem;
+  right: 0.4rem;
+}
+#card > .box1 h3 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+#card > .box1 p {
+  margin-top: 2rem;
+}
+#card > .box1 button {
+  width: 120px;
+  height: 50px;
+  border: none;
+  color: orange;
+  margin-top: 6rem;
+  border-radius: 30px;
+  font-size: 1.1rem;
+}
+
+/* box 2  --------------------------------------------------------------------------------------------- */
+#card > .box2 {
+  background-color: #016972;
+}
+#card > .box2 > #circle {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(25, 25, 25, 0.616);
+  border-radius: 50%;
+  position: relative;
+}
+
+#card > .box2 i {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 2rem;
+  right: 0.4rem;
+}
+#card > .box2 h3 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+#card > .box2 p {
+  margin-top: 2rem;
+}
+#card > .box2 button {
+  width: 120px;
+  height: 50px;
+  border: none;
+  color: blue;
+  margin-top: 6rem;
+  border-radius: 30px;
+  font-size: 1.1rem;
+}
+
+/* box 3  ---------------------------------------------------------------------------- */
+#card > .box3 {
+  background-color: #00403f;
+}
+#card > .box3 > #circle {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(25, 25, 25, 0.616);
+  border-radius: 50%;
+  position: relative;
+}
+
+#card > .box3 i {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 2rem;
+  right: 0.4rem;
+}
+#card > .box3 h3 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+#card > .box3 p {
+  margin-top: 2rem;
+}
+#card > .box3 button {
+  width: 130px;
+  height: 50px;
+  border: none;
+  color: blue;
+  margin-top: 6rem;
+  border-radius: 30px;
+  font-size: 1.1rem;
+}
